@@ -1,0 +1,157 @@
+/* ----- RESETANDO CONFIGURAÇÕES ----- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFE899;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+
+/* ----- PÁGINA DE ESCOLHA DO USUÁRIO ----- */
+/* ----- ESTILIZANDO O CABEÇALHO ----- */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.cabecalho h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.cabecalho img{
+    height: 13rem;
+}
+
+/*--- ESTILIZANDO TIPO DE USUÁRIO ---*/
+.tipo-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.tipo-usuario h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.tipo-usuario .botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.tipo-usuario a{
+    background-color: #00aa41;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+/* ----- PÁGINA CADASTRO CLIENTE e RESTAURANTE ----- */
+/* ----- ESTILIZANDO O CABEÇALHO ----- */
+.cabecalho-cliente{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.cabecalho-cliente h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.cabecalho-cliente img{
+    height: 11rem;
+}
+
+/*--- ESTILIZANDO O FORMULÁRIO CADASTRO ---*/
+.cadastro-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.cadastro-usuario h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario .btn{
+    border: none;
+    background-color: #00aa41;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.formulario a{
+    background-color: #f88603;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+
+
+/* ----- RESPONSIVIDADE DAS TELAS ----- */
+@media (max-width: 650px){
+    .container{
+        width: 90%;
+    }
+
+
+}
