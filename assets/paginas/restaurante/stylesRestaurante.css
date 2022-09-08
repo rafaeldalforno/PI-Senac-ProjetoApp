@@ -109,11 +109,15 @@ body{
 
 .cadastro-cardapio .formulario .categorias{
     margin: 20px;
-    max-width: 73%;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
 .cadastro-cardapio .formulario .categorias img{
-    height: 4.3rem;
+    height: 6.3rem;
 }
 
 .formulario .categorias input[type="radio"] {
@@ -121,14 +125,16 @@ body{
 }
 
 .formulario .categorias label {
-    border: 4px solid #666;
-    border-radius: 10px;
+    border:solid #666;
+    border-radius: 6.3rem;
     width: 60px;
+    margin: 40px;
 }
 
 .formulario .categorias input[type="radio"]:checked+label {
     border-color: #00aa41;
 }
+
 
 
 /*--- ESTILIZANDO PÁGINA DO CARDÁPIO ---*/
