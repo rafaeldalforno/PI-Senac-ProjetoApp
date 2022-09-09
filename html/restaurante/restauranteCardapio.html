@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurar Cardápio</title>
+
+    <link rel="stylesheet" href="../../css/stylesRestaurante.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho-menu">
+            <img src="../../imagens/logo_foodGuide.png" alt="Logo do App Food Guide">
+            <h2>Cadastre o Menu de seu Restaurante</h2>    
+        </header>
+
+        <main class="cadastro-cardapio">
+            <h2>Escolha a Categoria de seu Restaurante:</h2>
+
+            <form action="#" method="POST" class="formulario">
+                <div class="categorias">
+                    <!-- <img src="/assets/images/Brasileira.png" alt="Comida Brasileira">
+
+                    <img src="/assets/images/Japonesa.png" alt="Comida Japonesa">
+                    <img src="/assets/images/Hamburger.png" alt="Hamburguers">
+                    <img src="/assets/images/Chinesa.png" alt="Comida Chinesa">
+                    <img src="/assets/images/Pizza.png" alt="Pizza">
+                    <img src="/assets/images/Hot Dog.png" alt="Hot Dog"> -->
+                   
+                        <input type="radio" name="tipoCulinaria" id="brasileira" />
+                        <label for="brasileira"><img src="../../imagens/Brasileira.png" alt="Comida Brasileira"></label>
+
+                        <input type="radio" name="tipoCulinaria" id="japonesa" />
+                        <label for="japonesa"><img src="../../imagens/Japonesa.png" alt="Comida Japonesa"></label>
+
+                        <input type="radio" name="tipoCulinaria" id="hamburger" />
+                        <label for="hamburger"><img src="../../imagens/Hamburger.png" alt="Hamburger"></label>
+                </div>
+                <br>
+                <div class="categorias">
+                        <input type="radio" name="tipoCulinaria" id="chinesa" />
+                        <label for="chinesa"><img src="../../imagens/Chinesa.png" alt="Comida Chinesa"></label>
+
+                        <input type="radio" name="tipoCulinaria" id="pizza" />
+                        <label for="pizza"><img src="../../imagens/Pizza.png" alt="Pizza"></label>
+
+                        <input type="radio" name="tipoCulinaria" id="hot-dog" />
+                        <label for="hot-dog"><img src="../../imagens/Hot Dog.png" alt="Hot Dog"></label>
+                </div>
+
+                <h2>Edite os Pratos do seu Menu:</h2>
+
+                <div class="edit-pratos">
+                    <div class="prato">
+                        <input type="text" id="prato01"placeholder="Prato 01"> 
+                        <input type="number" id="preco01"placeholder="Preço"> 
+                        <input type="submit" id="salvar1" value="salvar" class="btn">
+                    </div>
+                    <input type="text" id="descicao1" placeholder="Descrição do Prato">
+                    <br><br>
+
+                    <div class="prato">
+                        <input type="text" id="prato02"placeholder="Prato 02"> 
+                        <input type="number" id="preco02"placeholder="Preço"> 
+                        <input type="submit" id="salvar2" value="salvar" class="btn">
+                    </div>
+                    <input type="text" id="descicao2" placeholder="Descrição do Prato">
+                    <br><br>
+
+                    <div class="prato">
+                        <input type="text" id="prato03"placeholder="Prato 03"> 
+                        <input type="number" id="preco03"placeholder="Preço"> 
+                        <input type="submit" id="salvar3" value="salvar" class="btn">
+                    </div>
+                    <input type="text" id="descicao3" placeholder="Descrição do Prato">
+                    <br><br>
+
+                    <div class="prato">
+                        <input type="text" id="prato04"placeholder="Prato 04"> 
+                        <input type="number" id="preco04"placeholder="Preço"> 
+                        <input type="submit" id="salvar4" value="salvar" class="btn">
+                    </div>
+                    <input type="text" id="descicao4" placeholder="Descrição do Prato">
+                    <br><br>
+
+                    <div class="prato">
+                        <input type="text" id="prato05"placeholder="Prato 05"> 
+                        <input type="number" id="preco05"placeholder="Preço"> 
+                        <input type="submit" id="salvar" value="salvar" class="btn">
+                    </div>
+                    <input type="text" id="descicao5" placeholder="Descrição do Prato">
+                    <br><br>
+
+                </div>
+            </form>
+        
+        </main>
+
+    </div>
+</body>
+</html>

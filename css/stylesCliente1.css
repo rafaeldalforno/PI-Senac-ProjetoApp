@@ -1,0 +1,134 @@
+/* ----- RESETANDO CONFIGURAÇÕES ----- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFE899;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+
+
+/* ----- PÁGINA CADASTRO CLIENTE ----- */
+/* ----- ESTILIZANDO O CABEÇALHO ----- */
+
+.cabecalho-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho-cliente h1{
+    font-size: 72px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cadastro-usuario{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.cadastro-usuario h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/*--- ESTILIZANDO CATEGORIAS ---*/
+.categorias-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias-main h2 {
+    font-size: 42px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 40px;
+}
+ .categorias-main .categorias{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+ }
+
+.categorias-main .categorias input[type="radio"] {
+    visibility: hidden;
+}
+
+.categorias-main .categorias input[type="radio"]:checked+label{
+    opacity: 0.5;
+}
+
+
+/*--- ESTILIZANDO OPÇÕES ---*/
+/*--- CATEGORIAS ---*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px 10px;
+}
+
+.formulario .categorias{
+    margin: 20px;
+    max-width: 90%;
+}
+
+.formulario .botoes-login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.formulario .categorias img{
+    height: 10rem;
+}
+
+.formulario .categorias input[type="radio"] {
+    visibility: hidden;
+}
+
+
+.formulario .btn{
+    border: none;
+    background-color: #00aa41;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+
+/* ----- RESPONSIVIDADE DAS TELAS ----- */
+@media (max-width: 650px){
+    .container{
+        width: 90%;
+    }
+
+
+}
