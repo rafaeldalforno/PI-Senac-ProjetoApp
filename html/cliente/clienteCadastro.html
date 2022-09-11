@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Cliente</title>
 
-    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../css/stylesCliente1.css">
 </head>
 <body>
     <div class="container">
         <header class="cabecalho-cliente">
-            <h2>Seja Bem-Vindo ao</h2>
+            <h1>Seja Bem-Vindo ao</h1>
             
             <img src="../../imagens/logo_foodGuide.png" alt="Logo do App Food Guide">
         </header>
@@ -43,9 +43,21 @@
                     <input type="password" id="senha">
                 </div>
                 <br><br>
-                <input type="submit" id="enviar" value="Cadastrar" class="btn">
+                <input type="submit" id="enviar" value="Cadastrar" class="btn" onclick="cadastro()/false">
+                <a class="botoes" href="clienteLogin.html">Login</a>
             </form>
         </main>
     </div>
+
+    <script>
+
+
+        function cadastro(){
+
+            alert("Cadastrado com sucesso");
+
+        }
+
+    </script>
 </body>
 </html>

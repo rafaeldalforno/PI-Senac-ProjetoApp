@@ -81,6 +81,10 @@ body{
     opacity: 0.5;
 }
 
+.categorias-main .categorias a:hover{
+    opacity:0.5;
+}
+
 
 /*--- ESTILIZANDO OPÇÕES ---*/
 /*--- CATEGORIAS ---*/
@@ -106,10 +110,7 @@ body{
 
 .formulario .categorias img{
     height: 10rem;
-}
-
-.formulario .categorias input[type="radio"] {
-    visibility: hidden;
+    margin: 2px;
 }
 
 
@@ -120,7 +121,18 @@ body{
     text-align: center;
     border-radius: 10px;
     width: 100px;
-    height: 50px;
+    height: 55px;
+}
+
+.formulario .botoes{
+    background-color: #00aa41;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 19px;
+    width: 100px;
+    height: 40px;
+    margin-top: 2px;
 }
 
 

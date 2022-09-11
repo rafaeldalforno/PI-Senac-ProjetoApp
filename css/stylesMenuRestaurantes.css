@@ -1,0 +1,90 @@
+/* ----- RESETANDO CONFIGURAÇÕES ----- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFE899;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 5em;
+    max-width: 50%;
+}
+
+
+/* ----- PÁGINA DE ESCOLHA DO USUÁRIO ----- */
+/* ----- ESTILIZANDO O CABEÇALHO ----- */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.cabecalho .subcabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.cabecalho p{
+    margin: 10px;
+    font-size: 5em;
+    max-width: 50%;
+}
+
+.cabecalho .categoria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho img{
+    height: 13rem;
+}
+
+.pratos{
+    align-items: center;
+}
+
+.pratos .prato{
+    display: flex;
+    flex-direction: row;
+}
+
+.pratos .prato .btn{
+    border: none;
+    background-color: #00aa41;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.navegacao a{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00aa41;
+    text-align: center;
+    color: #ffffff;
+}
