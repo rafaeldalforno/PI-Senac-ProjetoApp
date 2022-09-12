@@ -14,4 +14,4 @@
 
 # Vídeo Funcionamento #
 
-[![Vídeo Screenshot](https://www.alura.com.br/assets/api/cursos/512/final-cut-introducao-edicao-video.png)](https://www.youtube.com/watch?v=uxPk9wmgcbY)
+[![Vídeo Screenshot](https://www.alura.com.br/assets/api/cursos/512/final-cut-introducao-edicao-video.png)](https://youtu.be/n7iq_o54bF8)
